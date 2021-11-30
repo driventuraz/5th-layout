@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Sans+Pro&display=swap');
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'slick.scss';
+@import "header.scss";
+@import "features.scss";
+@import "device.scss";
+@import "another_phone";
+@import "slider";
+@import "price";
+@import "contact";
+@import "feedback";
+@import "footer";
+
+html, body {
+    font-family: 'Source Sans Pro',sans-serif ;
+    // height: 100%;
+    // min-width: 100%;
+    // overflow-x: hidden;
+}
+*, *::before, *::after,p.h1,h2,h3,h4,h5{
+    box-sizing: border-box;
+    margin-bottom: 0   ;
+}
+
+.container{
+    @media (max-width:1220px){
+        padding: 0 15px;
+    }
+    padding: 0;
+    max-width: 1170px;
+}
+
+
+
+
+
+
+
+
+            

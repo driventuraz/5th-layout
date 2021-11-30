@@ -1,0 +1,51 @@
+
+.footer{
+    width: 100%;
+    background-color: #15141a;
+      .footer_icons{
+        text-align: center;
+        padding-top: 52px;
+        margin: 0 auto;
+        max-width: 219px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: -5px;
+        & i{
+          color: #444348;
+          font-size: 18px;
+          &:hover{
+            color: #008ed6;
+          }
+        }
+        .fa-twitter{
+          padding-right: 4px;
+        }
+        .fa-behance, .fa-linkedin-in{
+          font-size: 19px;
+        }
+        .fa-linkedin-in{
+          padding-right: 0.4px;
+        }
+        .fa-facebook-f{
+          padding-right: 4px;
+        }
+      }
+      .credits{
+        font-size: 14px;
+        line-height: 48px;
+        text-align: center;
+        font-weight: 400;
+        padding-top: 8px;
+        text-transform: uppercase;
+        color: #414045;
+        letter-spacing: 0.2px;
+        margin: 0;
+      }
+    }
+.input_name, .input_email, .input_subject, .textarea_font{
+        background-color: #15141a;
+    }
+
+
+

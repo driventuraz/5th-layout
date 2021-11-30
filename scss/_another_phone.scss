@@ -1,0 +1,55 @@
+
+.another_phone_block{
+    padding-bottom: 19px;
+    background-color: #f2f2f2;
+        .customize{
+            display: flex;
+            justify-content: space-between;
+            @media (max-width:767px) {
+                justify-content: center;       
+            }
+            .for_img{
+                padding-top: 33px;
+            margin-right: -19px;
+            }
+            .for_text{
+                @media (max-width:767px) {
+                    text-align: center;
+                }
+                padding-top: 127px;
+
+                .another_details{
+                    color: #999999;
+                    margin-bottom: 31px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: 0.47px;
+                    line-height: 25px;
+                    max-width: 478px;
+                    margin-top: 17px;
+                    font-size: 17px;
+                    @media (max-width:767px) {
+                            margin: 10px auto;
+                        }
+                }
+                h3{
+                    letter-spacing: 0;
+                    color: #1a1a1a;
+                    font-size: 36px;
+                    font-weight: 600;
+                    font-style: normal;
+                    padding-bottom: 13px;
+                }
+                .fourth_blue_text{
+                    margin-bottom: 9px;
+                    color: #008ed6;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: 1.7px;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+}

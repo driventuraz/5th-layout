@@ -1,0 +1,202 @@
+.for_slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 59px;
+    background-color: #15141a;
+    width: 100%;
+    background-image: url(../img/slider_backg.svg);
+    .container{
+        .slider{
+            padding-bottom: 44px;
+            .slider_title{
+                text-align: center;
+                .fifth_blue_text{
+                    margin-bottom: 7px;
+                    color: #008ed6;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: 1.8px;
+                    text-transform: uppercase;
+                }
+            h3{
+                color: #ffffff;
+                font-size: 36px;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: 0.55px;
+                line-height: normal;
+                margin-bottom: 13px;
+
+            }
+
+            }   
+            .slider_list{
+                margin-top: 78px;
+                .slick-dots{
+                    padding: 0;
+                    margin-top: 118px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    li {
+                        list-style: none;
+                        margin: 0px 10px;
+                        &.slick-active{
+                            button{
+                            width: 14px;
+                            height: 14px;
+                            background-color: #ffffff;    
+                            }
+                            
+                        }
+                        button {
+                            font-size: 0;
+                            width: 8px;
+                            padding: 0;
+                            height: 8px;
+                            background-color: transparent;
+                            border-radius: 50%;
+                            border: 1px solid #4e494b;
+                            
+            }
+        }
+    }
+}
+.business_card{
+    display: flex;
+    .autor_info{
+        flex-direction: column;
+        text-align: left;
+    }
+}
+.slider_item{
+    .dean{
+        padding-left: 15px;
+    }
+    .business_card{
+        img{
+        width: 59px;
+        height: 59px;           
+        }
+        .john_name,.dean_name{
+        margin: -6px 0 0 0 ;
+        padding-left: 25px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 42px;
+        }
+        .john_position,.dean_position{
+            color: #fff;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            font-size: 14px;
+            padding-left: 25px;
+            margin-top: -7px;
+        }
+    }
+    .dean_text{
+        padding-left: 14px;
+    }
+ 
+    .text_slider{
+        margin: 0 0 23px 0;
+        max-width: 560px;
+        font-family: 'Source Sans Pro',sans-serif ;
+        font-style: italic;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 32px;
+        text-align: left;
+    }
+}
+        }
+    }
+}
+.black_container{
+    background-color: #15141a;
+        .text_and_buttons{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 8px;
+            @media(max-width: 768px){
+                display: flex;
+                flex-direction: column;
+            }
+            .black_container_text{
+                color: #ffffff;
+                display: flex;
+                justify-content: start;
+                width: 100%;
+                padding-top: 58px;
+                .bold_text{
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 48px;
+                    text-align: left;
+                    padding-bottom: 40px;
+                    @media(max-width: 768px) {
+                        text-align: right;
+                        
+                    }
+                    
+                }
+                .regular_font{
+                    padding-top: 0px;
+                    font-size: 34px;
+                    font-weight: 300;
+                    padding-left: 8px;
+                    letter-spacing: 0.9px;
+                    @media(max-width: 768px) {
+                        text-align: center;
+                    }
+
+                }
+            }
+            .black_container_buttons{
+                display: flex;
+                justify-content:end;
+                margin-top: 58px;
+                .bttn {
+                    border-radius: 4px;
+                    width: 160px;
+                    height: 50px;
+                    font-size: 14px;
+                    color: #ffffff;
+                    letter-spacing: normal;
+                    line-height: 48px;
+                    text-align: center;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    @media(max-width :768px){
+                        margin-right: 36px 
+                    }
+                        
+                 }
+                .blue_button{
+                    background-color: #008ed6;
+                    border: none;
+                    @media(max-width:768px){
+                            margin-right: 0;    
+                    }
+        
+                }
+                .transparent_button{
+                    margin-right: 20px;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    background-color: transparent;
+                }
+                @media (max-width:992px) {
+                justify-content: center;
+                }
+            }
+        }
+}

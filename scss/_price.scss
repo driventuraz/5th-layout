@@ -1,0 +1,178 @@
+.prices{
+    padding-top: 55px;
+        .pricing_title{
+            text-align: center;
+            padding-bottom: 1px;
+                .fifth_blue_text{
+                    margin-bottom: 8px;
+                    color: #008ed6;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: 1.41px;
+                    text-transform: uppercase;
+                }
+            h3{
+                color:#1a1a1a;
+                font-size: 36px;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: 0.55px;
+                line-height: normal;
+                margin-bottom: 13px;
+
+            }
+            
+            
+                
+        }
+}
+
+.list_item{
+    padding-bottom: 60px;
+    margin-top: 60px;
+    &:first-child{
+        padding-right: 16px;
+    }
+    &:nth-child(2){
+        padding-right: 15px;
+    }
+    &:nth-child(3){
+        padding-right: 14px;
+    }
+    &:last-child{
+        padding-left: 14px;
+    }
+        
+    }
+
+.card{
+    &:hover{
+        .column_title{
+            color: #008ed6;
+    }
+    .price{
+        background-color: #008ed6;
+        .how_much{
+            color: white;
+        }
+        sup{
+            color: white;
+        }
+        & > p{
+            color: white;
+        }
+    }
+    .card_button{
+        .bttn{
+            background-color: #008ed6;
+            color: white;
+        }
+    }
+    
+}
+    border: 1px solid #e5e5e5;
+    vertical-align: middle;
+    .col_title{
+        border-bottom:  1px solid #e5e5e5;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        .column_title{
+            text-transform: uppercase;
+            margin: 0;
+            padding: 18px 0 15px;
+        }
+
+    }
+    .price{
+        border-bottom:  1px solid #e5e5e5;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        
+        .per_month{
+            color: #ababab;
+            margin-bottom: 32px;
+            margin-top: -7px;
+        }
+        .how_much{
+            .bucks2{
+                position: absolute;
+                top: 55%;
+                font-size: 27px;
+                left: 35%;
+                }
+                .bucks1{
+                    position: absolute;
+                    top: 55%;
+                    font-size: 27px;
+                    left: 41%;
+        
+                }
+            position: relative;
+            font-weight: 600;
+            font-size: 60px;
+            padding-left: 10px;
+            padding-top: 26px;
+            color: #1a1a1a;
+            font-size: 60px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+    }
+    .card_text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & > p{
+            margin-left: 7px;
+            width: 208px;
+            color: #999999;
+            font-family: "Source Sans Pro";
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-align: center;
+            text-align: center;
+            margin-top: 44px;
+            color:#b1b1b1;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    .card_button{
+        text-align: center;
+        border-top: 0;
+        margin-bottom: 29px;
+        margin-top: 26px;
+        .bttn{
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            width: 160px;
+            height: 50px;
+            background-color: transparent;
+            border-color: #e5e5e5;
+            margin: 0;
+            color: #008ed6;
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 48px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+
+.blue_url{
+    color: #44ace1;
+    text-decoration: none;
+}
+   
+}

@@ -1,0 +1,156 @@
+.contact{
+    padding-top: 55px;
+    background-color: #ededed;
+    .contact_title{
+        text-align: center;
+        h3{
+            color: #1a1a1a;
+            font-size: 36px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: 0.55px;
+            line-height: normal;
+            margin-bottom: 13px;
+            
+        }
+        .seventh_blue_text {
+            text-align: center;
+            margin-bottom: 8px;
+            color: #008ed6;
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;  
+        }
+    }
+    .adress_info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 104px 0;
+            margin-top: 56px;
+            @media(max-width:768px){
+                    display: flex;
+                    flex-direction: column;
+            }
+            .phone_container{
+                align-items: center;
+                flex-direction: column;
+                display: flex;
+                .phone_icon{
+                    width: 32px;
+                    height: 32px;
+                    margin-top: -6px;
+                    margin-left: -1px;
+
+                }
+                .phone_number{
+                   
+                    margin-bottom: 2px;
+                    margin-top: 25px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #a2a2a2;
+                    margin-left: -4px;
+                    @media(max-width:768px){
+                        text-align: center;
+                        min-width: 180px;
+                    }
+                    
+                }
+                .fax_number{
+                   
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #a2a2a2;
+                    margin-top: -3px;
+                    margin-right: 4px;
+                    @media(max-width:768px){
+                        text-align: center;
+                        min-width: 180px;
+                        padding-bottom: 23px;
+                    }
+
+                }
+            }
+            .map_container{
+                padding-left: 18px;
+                align-items: center;
+                flex-direction: column;
+                display: flex;
+                @media(max-width: 768px){
+                    padding-bottom: 25px;
+                }
+                .map_icon{
+                    width: 32px;
+                    height: 32px;
+                    margin-top: -6px;
+                    padding-right: 0px;
+                    margin-left: -12px;
+                    @media(max-width: 768px) {
+                        margin-left: -17px
+                        
+                    }
+  
+                }
+                .adress1{
+                    
+                    margin-top: 25px;
+                    margin-right: 14px;
+                    margin-bottom: 0;
+                    color: #a2a2a2;
+                    font-size: 18px;
+                    @media(max-width:768px){
+                            text-align: center;
+                            min-width: 180px;
+                    }
+                }
+                .adress2{
+                    
+                    margin-bottom: 0;
+                    color: #a2a2a2;
+                    font-size: 18px;
+                    margin-right: 14px;
+                    @media(max-width:768px){
+                            text-align: center;
+                            min-width: 180px;
+                    }
+                }
+                .adress3{
+                    
+                    color: #a2a2a2;
+                    font-size: 18px;
+                    margin-right: 14px;
+                    margin-top: -2px;
+                    @media(max-width:768px){
+                            text-align: center;
+                            min-width: 180px;
+                    }
+                }
+            }
+            .mail_container{
+                align-items: center;
+                flex-direction: column;
+                display: flex;
+                .mail_icon{
+                    width: 32px;
+                    height: 32px;
+                    margin-top: -6px;
+                    margin-left: 4px;
+                    margin-bottom: 0px;
+                }
+                .mail{
+                   
+                    margin-top: 27px;
+                    color: #a2a2a2;
+                    @media(max-width:768px){
+                        text-align: center;
+                        min-width: 180px;
+                    }
+                }
+            }
+    }        
+    
+
+}
