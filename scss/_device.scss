@@ -1,6 +1,6 @@
 
 .details{
-    padding-top: 42px;
+    padding-top: 41px;
     .phone_details{
         @media (max-width:1170px) {
             justify-content: center;
@@ -9,6 +9,12 @@
         justify-content: space-between;
         .phone_pic{
             padding: 24px 0px 19px 8px;
+            @media (max-width: 991px) {
+                display: flex;
+            }
+            @media( max-width:768px){
+                margin: auto 0;
+            }
         }
         .text_details{
             padding-left: 114px;
@@ -16,10 +22,11 @@
             flex-direction: column;
             text-align: left;
             @media( max-width:768px){
-                padding-left: 60px;
+                padding: 0 15px;
+                text-align: center;
             }
             h3{
-                margin-bottom: 11px;
+                margin-bottom: 12px;
                 letter-spacing: 0;
                 color: #1a1a1a;
                 font-size: 36px;
@@ -27,7 +34,7 @@
                 font-style: normal;
             }
             .third_blue_text{
-                margin: 0 0 9px 0;
+                margin: 0 0 8px 0;
                 color: #008ed6;
                 font-size: 14px;
                 font-weight: 700;
@@ -44,30 +51,44 @@
                 line-height: 25px;
                 max-width: 489px;
                 margin-top: 17px;
+                @media (max-width) {
+                    margin: 0 auto;
+                }
             }
             .icons{
                 ul{
                     padding: 0;
                     list-style-type: none;
                     li{
+                        font-size: 18px;
+                        margin-bottom: 6px;
+                        color: #1b1b1b;
+                        font-weight: 400;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 30px;
                         &:nth-child(1){
                             &::before{
                                 background-image: url('../img/Cup.png');
+                                transform: translate(0px, 2px);
+                                }
                             }
-                        }
                         &:nth-child(2){
                             &::before{
                                 background: url('../img/Mouse.png') no-repeat;
+                                transform: translate(3px, 1px); 
                             }
                         }
                         &:nth-child(3){
                             &::before{
                                 background: url('../img/Energy.png') no-repeat;
+                                transform: translate(3px, 2px);
                             }
                         }
                         &:nth-child(4){
                             &::before{
                                 background-image: url('../img/Speedometer.png') ;
+                                transform: translate(0px, 2px);
                             }
                         }
                         &:before{
@@ -77,26 +98,23 @@
                             display: inline-block;
                             margin-right: 10px;
                         }
+                    }
                        
-                        font-size: 18px;
-                        margin-bottom: 6px;
-                        color: #1b1b1b;
-                        font-weight: 400;
-                        font-style: normal;
-                        letter-spacing: normal;
-                        line-height: 30px;
+                      
                     }
                 }
             }
         }
-
-    }
 }
 .device_img{
+
     @media (min-width:1170px){
         min-width: 510px;
         min-height: 621px;
         transform: translate(24px, 0);
+    }
+    @media (max-width: 991px) {
+        margin: auto 0;
     }
 }
 .for_iphone5{

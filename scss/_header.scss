@@ -19,7 +19,7 @@
             color: #ffffff;
             font-family: Quicksand;
             font-size: 24px;
-            font-weight: 700;
+            font-weight: 500;
             font-style: normal;
             letter-spacing: 0.75px;
             line-height: 58px;
@@ -58,9 +58,28 @@
                 text-align: end;	
                 li {
                  padding-left: 25px;
-                 &:nth-child(1){
-                    margin-right: -3px;
+                 &:nth-child(1) a{
+                    margin-right: -2px;
                  }
+                 &:nth-child(2) a{
+                    margin-right: -1px;
+                 }
+                 &:nth-child(3) a{
+                     margin-right: -1px;
+
+                 }
+                 &:nth-child(4) a{
+                    margin-right: 0px;
+
+                 }
+                 &:nth-child(5) a{
+
+                 }
+                 &:nth-child(6) a{
+                     margin-right: 1px;
+
+                 }
+
                     font-size: 16px;
                         font-weight: 400;
                         font-style: normal;
@@ -125,18 +144,24 @@
                 line-height: 48px;
                 text-transform: uppercase;
                 margin-bottom: 0;
+                transform: translate(0px, -1px);
             }
             .large_text{
                 color: #ffffff;
                 font-size: 48px;
                 font-weight: 600;
                 font-style: normal;
-                letter-spacing: 0px;
+                letter-spacing: 0.1px;
                 line-height: 52px;
-                margin-bottom: 18px;
+                margin-bottom: 17px;
                 max-width: 500px;
+                letter-spacing: 0.05px;
+                margin-top: 3px;
+                margin-bottom: 23px;
+                line-height: 49px;
                 @media (max-width:992px) {
                 margin: 0 auto;
+                
                 }
             }
             .big_text{
@@ -148,6 +173,7 @@
                 line-height: 27px;
                 @media (max-width:992px) {
                 margin: 15px auto;
+                margin-bottom: -3px;
             }
         }
     }
@@ -175,7 +201,7 @@
     .header_buttons {
         display: flex;
         justify-content:start;
-        margin-top: 58px;
+        margin-top: 56px;
         @media (max-width:992px) {
         justify-content: center;
         }

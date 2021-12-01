@@ -11,12 +11,18 @@
             .for_img{
                 padding-top: 33px;
             margin-right: -19px;
+            display: flex;
+            }
+            .for_iphone5 {
+                margin: auto 0;
             }
             .for_text{
+                padding-top: 127px;
                 @media (max-width:767px) {
                     text-align: center;
+                    padding-top: 30px;
+                    
                 }
-                padding-top: 127px;
 
                 .another_details{
                     color: #999999;
@@ -46,7 +52,7 @@
                     font-size: 14px;
                     font-weight: 700;
                     font-style: normal;
-                    letter-spacing: 1.7px;
+                    letter-spacing: 1.4px;
                     text-transform: uppercase;
                 }
 
